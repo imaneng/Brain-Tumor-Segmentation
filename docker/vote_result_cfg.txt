@@ -1,0 +1,8 @@
+[data]
+result_root = /data
+
+# Set result_under_patient_dir  as True if the segmentation name is like
+# Brats17_XXXXX_XXX_1/results/tumor_tiggw_class/test1.nii.gz
+# otherwise set result_under_patient_dir as False, and the segmentation 
+# name is like Brats17_XXXXX_XXX_1/test1.nii.gz
+result_under_patient_dir = True
